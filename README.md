@@ -12,16 +12,17 @@ There are 3 separate html files for each year between 2015 and 2018 (12 html fil
 * profits
 * assets
 
-An example URL:  [http://fortune.com/fortune500/2018//list/filtered?sortBy=profits&first500](http://fortune.com/fortune500/2018//list/filtered?sortBy=profits&first500)
+An example URL:  [http://fortune.com/fortune500/2017//list/filtered?sortBy=revenues&first500](http://fortune.com/fortune500/2017//list/filtered?sortBy=reveunes&first500)
+Another example: [http://fortune.com/fortune500/list/filtered?sortBy=assets&first500](http://fortune.com/fortune500/list/filtered?sortBy=assets&first500)
 
-Note the `&first500` suffix.
-
-The top 500 companies in the Fortune500 list are ranked by revenues.
-
-Prior to 2015, Fortune.com has the company names and rank available, but no additional financial information.
+### Notes about the data
+* Need the `&first500` suffix to limit data to only the top 500 companies (otherwise top 1,000 (or more) are returned)
+* Don't need the year in the URL for the current year data
+* The top 500 companies in the Fortune500 list are ranked by revenues
+* Prior to 2015, Fortune.com has the company names and rank available, but no additional financial information
 
 ## Code
-The data scraping was done in python, and executed in a Jupyter notebook (F`ortune500.ipynb`). See `ENVIRONMENT.md` for details/requirements.
+The data scraping was done in python, and executed in a Jupyter notebook (`Fortune500.ipynb`). See `ENVIRONMENT.md` for details/requirements.
 
 ## Output
 The `output\` directory contains the csv file of interest. 
