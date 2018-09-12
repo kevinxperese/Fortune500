@@ -1,6 +1,6 @@
 # Fortune 500
 
-This project scrapes data from Fortune.com's [Fortune500 list] (http://www.fortune.com/Fortune500).
+This project scrapes data from Fortune.com's [Fortune500 list](http://www.fortune.com/Fortune500).
 
 Optimally, we would be able to use the `requests` library to download the html file of interest and process the data directly. Unfortunately, though, Fortune.com has their list set up such that it only partially loads the data to the html file on initlal request, and the html file gets updated when the page is scrolled to the bottom. 
 
@@ -12,8 +12,9 @@ There are 3 separate html files for each year between 2015 and 2018 (12 html fil
 * profits
 * assets
 
-An example URL:  [http://fortune.com/fortune500/2017//list/filtered?sortBy=revenues&first500](http://fortune.com/fortune500/2017//list/filtered?sortBy=reveunes&first500)
-Another example: [http://fortune.com/fortune500/list/filtered?sortBy=assets&first500](http://fortune.com/fortune500/list/filtered?sortBy=assets&first500)
+Two Example URLs:  
+* [http://fortune.com/fortune500/2017/list/filtered?sortBy=revenues&first500](http://fortune.com/fortune500/2017/list/filtered?sortBy=reveunes&first500)
+* [http://fortune.com/fortune500/list/filtered?sortBy=assets&first500](http://fortune.com/fortune500/list/filtered?sortBy=assets&first500)
 
 ### Notes about the data
 * Need the `&first500` suffix to limit data to only the top 500 companies (otherwise top 1,000 (or more) are returned)
