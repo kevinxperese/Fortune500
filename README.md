@@ -13,7 +13,7 @@ There are 3 separate html files for each year between 2015 and 2018 (12 html fil
 * assets
 
 Two Example URLs:  
-* [http://fortune.com/fortune500/2017/list/filtered?sortBy=revenues&first500](http://fortune.com/fortune500/2017/list/filtered?sortBy=reveunes&first500)
+* [http://fortune.com/fortune500/2017/list/filtered?sortBy=revenues&first500](http://fortune.com/fortune500/2017/list/filtered?sortBy=revenues&first500)
 * [http://fortune.com/fortune500/list/filtered?sortBy=assets&first500](http://fortune.com/fortune500/list/filtered?sortBy=assets&first500)
 
 ### Notes about the data
