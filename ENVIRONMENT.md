@@ -11,6 +11,9 @@ Python version == 3.5.1 |Anaconda 2.5.0 (64-bit)| (default, Jan 29 2016, 15:01:4
 ## Imported Libraries
 
 pandas version == 0.17.1
+
 bs4 version == 4.4.1 (Beautiful Soup)
+
 re version == 2.2.1 (regular expression engine)
+
 platform version == 1.0.7
